@@ -16,3 +16,6 @@ In powershell as admin:
 In WSL:
 - lsusb // to check if usb is recognised
 - isaac-ros activate
+
+- ros2 launch isaac_ros_visual_slam isaac_ros_visual_slam_realsense.launch.py \
+    tracking_mode:=0
